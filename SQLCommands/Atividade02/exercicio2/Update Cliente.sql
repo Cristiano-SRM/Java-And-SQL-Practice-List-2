@@ -1,0 +1,11 @@
+UPDATE cliente
+SET telefone = '11999999999'
+WHERE CPF = '12345678900';
+
+UPDATE veiculo
+SET ano = 2021
+WHERE chassi = 'ABC123456789';
+
+UPDATE mecanico
+SET salario = 5000.00
+WHERE CPF = '12312312345';
