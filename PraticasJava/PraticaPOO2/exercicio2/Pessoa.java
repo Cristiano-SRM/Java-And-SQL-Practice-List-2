@@ -1,25 +1,29 @@
 package PraticasJava.PraticaPOO2.exercicio2;
-class Pessoa {
+
+/**
+ * Classe que representa uma pessoa genérica.
+ */
+public class Pessoa { // Torne a classe pública
     private String nome;
+
     /**
-    * Construtor da classe Pessoa.
-    * Nome da pessoa.
-    */
+     * Construtor da classe Pessoa.
+     */
     public Pessoa(String nome) {
-    this.nome = nome;
+        this.nome = nome;
     }
+
     /**
-    * Obtém o nome da pessoa.
-    * Nome da pessoa.
-    */
+     * Obtém o nome da pessoa.
+     */
     public String getNome() {
-    return nome;
+        return nome;
     }
+
     /**
-    * Exibe os dados da pessoa no formato "Pessoa: Nome='nome'".
-    */
+     * Exibe os dados da pessoa no formato "Pessoa: Nome='nome'".
+     */
     public void exibe() {
-    System.out.println("Pessoa: Nome='" + nome + "'");
+        System.out.println("Pessoa: Nome='" + nome + "'");
     }
-    }
-    
+}
