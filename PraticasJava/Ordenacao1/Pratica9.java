@@ -47,4 +47,6 @@ public class Pratica9 {
         input.close();
         System.out.println("Programa encerrado.");
     }
+    /* $ javac PraticasJava/Ordenacao1/*.java
+       $ java PraticasJava.Ordenacao1.Pratica9 */
 }
